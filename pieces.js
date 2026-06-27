@@ -1,0 +1,13 @@
+const king_white = '<div class="piece" id="king_white"><div1>♔</div1></div>'
+const queen_white = '<div class="piece" id="queen_white"><div1>♕</div1></div>'
+const rook_white = '<div class="piece" id="rook_white"><div1>♖</div1></div>'
+const bishop_white = '<div class="piece" id="bishop_white"><div1>♗</div1></div>'
+const pawn_white = '<div class="piece" id="pawn_white"><div1>♙</div1></div>'
+const knight_white = '<div class="piece" id="knight_white"><div1>♘</div1></div>'
+
+const king_black = '<div class="piece" id="king_black"><div1>♚</div1></div>'
+const queen_black = '<div class="piece" id="queen_black"><div1>♛</div1></div>'
+const rook_black = '<div class="piece" id="rook_black"><div1>♜</div1></div>'
+const bishop_black = '<div class="piece" id="bishop_black"><div1>♝</div1></div>'
+const pawn_black = '<div class="piece" id="pawn_black"><div1>♟</div1></div>'
+const knight_black = '<div class="piece" id="knight_black"><div1>♞</div1></div>'
