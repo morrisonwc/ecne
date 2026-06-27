@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#game_board {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #444;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.square div1 {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+    font-size: 32px;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+    position: relative;
+    z-index: 9;
+}
+
+.light {
+    background-color: beige;
+}
+
+.dark {
+    background-color: cadetblue;
+}
